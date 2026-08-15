@@ -63,6 +63,13 @@ namespace Basics_Assignment05
             //Genre genre = (Genre)genreNumber;
             //Console.WriteLine(genre);
             #endregion
+
+            #region Question07
+            ///Given Genre genre = Genre.Fiction;, convert it into a string using ToString() and print it.
+            //Genre genre = Genre.Fiction;
+            //string genreText = genre.ToString();
+            //Console.WriteLine(genreText);
+            #endregion
         }
     }
 }
