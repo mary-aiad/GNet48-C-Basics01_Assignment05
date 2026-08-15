@@ -4,6 +4,7 @@
     {
         private string password = "secret";
         internal int copiesInStock = 5;
+        public string Title;
     }
 
     internal class Program
@@ -21,6 +22,13 @@
             ///Add an internal int copiesInStock = 5; field to Book. Print it from Main. Does it compile? Why ?
             //Book book = new Book();
             //Console.WriteLine(book.copiesInStock);
+            #endregion
+
+            #region Question03
+            ///Add a public string Title; field to Book. Set it and print it from Main.
+            //Book book = new Book();
+            //book.Title = "Test";
+            //Console.WriteLine(book.Title);
             #endregion
         }
     }
