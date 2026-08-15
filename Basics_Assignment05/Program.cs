@@ -1,10 +1,20 @@
-﻿namespace Basics_Assignment05
+﻿using System.Drawing;
+
+namespace Basics_Assignment05
 {
     class Book
     {
         private string password = "secret";
         internal int copiesInStock = 5;
         public string Title;
+        public Genre genre { get; set; }
+    }
+
+    enum Genre
+    {
+        Fiction, 
+        NonFiction, 
+        Science
     }
 
     internal class Program
@@ -29,6 +39,14 @@
             //Book book = new Book();
             //book.Title = "Test";
             //Console.WriteLine(book.Title);
+            #endregion
+
+            #region Question04
+            ///Declare an enum Genre { Fiction, NonFiction, Science }. Add a Genre property to Book,
+            ///assign it Genre.Science, and print it.
+            //Book book = new Book();
+            //book.genre = Genre.Science;
+            //Console.WriteLine(book.genre);
             #endregion
         }
     }
